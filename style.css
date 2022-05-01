@@ -1,0 +1,156 @@
+
+.gameContainer{
+	height:600px;
+}
+.container{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	*max-width:700px;
+	*height:500px;
+	height:100%;
+	border:1px solid #000;
+}
+.titleScreen{
+	z-index:99;
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	
+	background-color:#222;
+	color:#fff;
+	font-size:64px;
+	text-align:left;
+	padding:20px;
+}
+.titleScreen .btn{
+	background-color:rgba(255,255,255,.5);
+	color:#fff;
+	font-size:32px;
+	margin:20px;
+	padding:20px;
+	text-align:center;
+	
+	transition-duration:.2s;
+	cursor:pointer;
+}
+.titleScreen .btn:hover{
+	background-color:rgba(255,255,255,.3);
+}
+
+.levelScreen{
+	z-index:99;
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	
+	background-color:#222;
+	color:#fff;
+	font-size:64px;
+	text-align:left;
+	padding:20px;
+	
+	overflow:hidden;
+}
+.levelScreen .back{
+	float:right;
+}
+.levelScreen .scroll{
+	position:absolute;
+	top:150px;
+	left:20px;
+	bottom:20px;
+	right:20px;
+	overflow-y:auto;
+}
+.levelScreen .btn{
+	display:inline-block;
+	background-color:rgba(255,255,255,.5);
+	color:#fff;
+	font-size:32px;
+	margin:20px;
+	padding:20px;
+	min-width:40px;
+	text-align:center;
+	
+	transition-duration:.2s;
+	cursor:pointer;
+}
+.levelScreen .btn:hover{
+	background-color:rgba(255,255,255,.3);
+}
+.levelScreen .disabled{
+	background-color:rgba(255,255,255,.1);
+}
+
+.playScreen{
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	
+	background-color:#222;
+	color:#fff;
+	font-size:48px;
+	text-align:left;
+	
+	overflow:hidden;
+}
+.playScreen .btn{
+	position:absolute;
+	left:10px;
+	top:10px;
+	z-index:9999;
+	
+	display:inline-block;
+	background-color:rgba(255,255,255,.5);
+	color:#fff;
+	font-size:18px;
+	padding:10px;
+	min-width:40px;
+	text-align:center;
+	
+	transition-duration:.2s;
+	cursor:pointer;
+	
+}
+
+.playScreen .back{
+	right:10px;
+	left:auto;
+}
+
+.victoryScreen{
+	z-index:99;
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	
+	background-color:#222;
+	color:#fff;
+	font-size:128px;
+	text-align:left;
+	padding:20px;
+}
+.victoryScreen .btn{
+	background-color:rgba(255,255,255,.5);
+	color:#fff;
+	font-size:32px;
+	margin:20px;
+	padding:20px;
+	text-align:center;
+	
+	transition-duration:.2s;
+	cursor:pointer;
+}
+.victoryScreen .btn:hover{
+	background-color:rgba(255,255,255,.3);
+}
