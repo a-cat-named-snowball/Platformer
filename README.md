@@ -8,4 +8,5 @@ I'm going to work on improving it until it's actually a good game.
 - Split code into more than one file
 - Improve collision detection
 - Make a level editor
-
+- Reduce volume for sfx
+- Better graphics
