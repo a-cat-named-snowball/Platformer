@@ -1,7 +1,0 @@
-{
-	"name":"Platformer",
-	"type":"Game",
-	"date":"2015-3-13",
-	"image":"Platformer.jpg",
-	"description":"A platformer puzzle game. The main mechanics are pushing crates onto buttons and switching gravity."
-}
