@@ -1674,8 +1674,6 @@ var Artist = function(){
 		this.canvas.mozRequestFullScreen();
 	}  */
 	this.ctx = null;
-	this.width = 900;
-	this.height = 600;
 	this.image_cache = [];
 	this.loading_images = 0;
 	this.doneload = function(){};

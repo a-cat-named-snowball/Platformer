@@ -9,5 +9,6 @@ I'm going to work on improving it until it's actually a good game.
 - [ ] Make a level editor
 - [ ] Reduce volume for sfx
 - [ ] Better graphics
+- [x] Make the game take up the entire page
 - [x] Fix framerate, use requestAnimationFrame instead of setInterval
 
